@@ -4,8 +4,8 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t alpsinteract \
-                         -C "start_jupyter -T -A @tool -t alpsinteract.ipynb" \
-                         -u anaconda-X \
+                         -C "start_jupyter -A -T @tool -t alpsinteract.ipynb" \
+                         -u anaconda-7 \
                          -r none \
                          -w headless
 
